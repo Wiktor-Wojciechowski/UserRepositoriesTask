@@ -37,6 +37,16 @@ Exemplary response of the endpoint:
   }
 ]
 ```
+If the user does not exist, the API will respond with:
+```
+[
+  {
+    status: 404,
+    message: "User {user} not found"
+  }
+]
+```
+
 ## Testing
 You can run the tests by using
 ```
